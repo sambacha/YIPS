@@ -41,7 +41,5 @@ It is possible to run the YIP validator locally:
 gem install yip_validator
 yip_validator <INPUT_FILES>
 ```
-
-## License 
-
-CC-0
+## Copyright
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
