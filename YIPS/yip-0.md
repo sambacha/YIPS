@@ -29,7 +29,7 @@ Parties involved in the process are the *author*, the [*YIP editors*](#yip-edito
 Your role as the champion is to write the YIP using the style and format described below, shepherd the discussions in the appropriate forums, and build community consensus around the idea. Following is the process that a successful YIP will move along:
 
 ```
-[ WIP ] -> [ PROPOSED ] -> [ APPROVED ] -> [ IMPLEMENTED ] X [ REJECTED ] 
+[ WIP ] -> [ PROPOSED ] -> [ APPROVED ] -> [ IMPLEMENTED ] X [ REJECTED ]
 ```
 
 Each status change is requested by the YIP author and reviewed by the YIP editors. Use a pull request to update the status. Please include a link to where people should continue discussing your YIP. The YIP editors will process these requests as per the conditions below.
@@ -37,9 +37,7 @@ Each status change is requested by the YIP author and reviewed by the YIP editor
 * **Work in progress (WIP)** -- Once the champion has asked the yEarn community whether an idea has any chance of support, they will write a draft YIP as a [pull request]. Consider including an implementation if this will aid people in studying the YIP.
 * **Proposed** If agreeable, YIP editor will assign the YIP a number (generally the issue or PR number related to the YIP) and merge your pull request. The YIP editor will not unreasonably deny an YIP. Proposed YIPs will be discussed on governance calls and in Discord. If there is a reasonable level of consensus around the change on the governance call the change will be moved to approved. If the change is contentious a vote of token holders may be held to resolve the issue or approval may be delayed until consensus is reached.
 * **Approved** -- This YIP has passed community governance and is now being prioritised for development.
-  
 * **Implemented** -- This YIP has been implemented and deployed to mainnet.
-
 * **Rejected** -- This YIP has failed to reach community consensus.
 
 ## What belongs in a successful YIP?

@@ -1,7 +1,8 @@
 # YIPs [![Discord](https://img.shields.io/discord/734804446353031319.svg?color=768AD4&label=discord&logo=https%3A%2F%2Fdiscordapp.com%2Fassets%2F8c9701b98ad4372b58f13fd9f65f966e.svg)](https://discordapp.com/channels/734804446353031319/) [![Telegram](https://img.shields.io/badge/chat-on%20Telegram-blue.svg)](https://t.me/yearnfinance) [![Twitter Follow](https://img.shields.io/twitter/follow/iearnfinance.svg?label=iearnfinance&style=social)](https://twitter.com/iearnfinance)
-yEarn Improvement Proposals (YIPs) describe standards for the yEarn platform, including core protocol specifications, client APIs, and contract standards.
 
-# Contributing
+yEarn Improvement Proposals (YIPs) describe standards for the yEarn platform, including core protocol specifications, client APIs, and contract standards.
+ 
+## Contributing
 
  1. Review [YIP-0](YIPS/yip-0.md).
  2. Fork the repository by clicking "Fork" in the top right.
@@ -14,7 +15,7 @@ If your YIP requires images, the image files should be included in a subdirector
 
 When you believe your YIP is mature and ready to progress past the WIP phase, you should ask to have your issue added to the next governance call where it can be discussed for inclusion in a future platform upgrade. If the community agrees to include it, the YIP editors will update the state of your YIP to 'Approved'.
 
-# YIP Statuses
+## YIP Statuses
 
 * **WIP** - a YIP that is still being developed.
 * **Proposed** - a YIP that is ready to be reviewed in a governance call.
@@ -22,7 +23,7 @@ When you believe your YIP is mature and ready to progress past the WIP phase, yo
 * **Implemented** - a YIP that has been released to mainnet.
 * **Rejected** - a YIP that has been rejected.
 
-# Validation
+## Validation
 
 YIPs must pass some validation tests.  The YIP repository ensures this by running tests using [html-proofer](https://rubygems.org/gems/html-proofer) and [yip_validator](https://rubygems.org/gems/yip_validator).
 
@@ -31,3 +32,7 @@ It is possible to run the YIP validator locally:
 gem install yip_validator
 yip_validator <INPUT_FILES>
 ```
+
+## Copyright
+
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
