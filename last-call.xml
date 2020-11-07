@@ -1,0 +1,36 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <!-- gov.yearn.finance -->
+    <title>Yearn Governance YIPs Call Review</title>
+    <description>All yips which are in the two-week "last call" status, please help review these and provide your feedback!</description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/last-call.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>{{ site.time }}</lastBuildDate>
+    {% assign yips = site.pages | sort: 'yip' %}
+    {% for yip in yips %}
+      {% if yip.status == "Last Call" %}
+      {% capture description %}
+        <p><strong>yip #{{ yip.yip }} - {{yip.title }}</strong> is in Last Call status. It is authored by {{ yip.author }} and was originally created {{ yip.created }}. It is in the {{ yip.category }} category of type {{ yip.type }}. Please review and note any changes that should block acceptance.</p>
+        {% if yip.discussions-to %}
+          <p>The author has requested that discussions happen at the following URL: {{ yip.discussions-to }}</p>
+        {% else %}
+          <p>Please visit the [ethereum/yips issues to comment](https://github.com/ethereum/yips/issues/{{yip.yip}}).</p>
+        {% endif %}
+        <hr />
+        {{ yip.content }}        
+      {% endcapture %}
+      <item>
+        <title>{{ yip.title | xml_escape }}</title>
+        <description>{{ description | xml_escape }}</description>
+        <pubDate>{{ yip.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ site.url }}/{{ yip.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}/{{ yip.url }}</guid>
+      </item>
+      {% endif %}
+    {% endfor %}
+  </channel>
+</rss>
