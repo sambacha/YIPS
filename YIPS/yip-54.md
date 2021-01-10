@@ -48,7 +48,7 @@ The proposal attempts to answer the following questions:
 
 #### Current Yearn operations spend
 
-Estimated to total ~$434,000 as of November 10, 2020. More than half of the operations spend is security related, with the greater part of the remainder spent on funding contributors in various forms.
+Estimated to total ~\$434,000 as of November 10, 2020. More than half of the operations spend is security related, with the greater part of the remainder spent on funding contributors in various forms.
 
 ![](assets/yip-54/figure1.svg)
 
