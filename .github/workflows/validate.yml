@@ -2,9 +2,9 @@ name: Validate
 
 on:
   push:
-    branches: ["master"]
+    branches: ['master']
   pull_request:
-    branches: ["*"]
+    branches: ['*']
 
 jobs:
   Validate:
@@ -27,7 +27,11 @@ jobs:
         run: bundle exec jekyll build
 
       - name: Run HTMLProofer
-        run: bundle exec htmlproofer ./_site --internal-domains=yips.yearn.finance --check-html --check-opengraph --report-missing-names --log-level=:debug --assume-extension --empty-alt-ignore --timeframe=6w --url-ignore=/YIPS/yip-0 --disable-external
+        run:
+          bundle exec htmlproofer ./_site --internal-domains=yips.yearn.finance
+          --check-html --check-opengraph --report-missing-names
+          --log-level=:debug --assume-extension --empty-alt-ignore
+          --timeframe=6w --url-ignore=/YIPS/yip-0 --disable-external
 
       - name: Run GH pages healthcheck
         run: bundle exec github-pages health-check

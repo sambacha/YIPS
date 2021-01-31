@@ -9,9 +9,11 @@ created: 2020-07-19
 
 ## Simple Summary
 
-**FOR**: Allows weekly distribution of YFI. A second proposal will be submitted to decide how much would be printed weekly.
+**FOR**: Allows weekly distribution of YFI. A second proposal will be submitted
+to decide how much would be printed weekly.
 
-**AGAINST**: No more YFI tokens will be distributed. Global supply is locked at 30000 YFI permanently.
+**AGAINST**: No more YFI tokens will be distributed. Global supply is locked at
+30000 YFI permanently.
 
 _NOTE: This was proposal 0 on-chain._
 
@@ -26,8 +28,10 @@ _NOTE: This was proposal 0 on-chain._
 | Start block         | 10490942                                   |
 | End block           | 10508222                                   |
 
-Source: [yieldfarming.info YFI Governance Information](https://yieldfarming.info/yearn/vote/)
+Source:
+[yieldfarming.info YFI Governance Information](https://yieldfarming.info/yearn/vote/)
 
 ## Copyright
 
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+Copyright and related rights waived via
+[CC0](https://creativecommons.org/publicdomain/zero/1.0/).

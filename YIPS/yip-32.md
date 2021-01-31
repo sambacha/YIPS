@@ -13,13 +13,16 @@ Remove YFI burning from the protocol.
 
 ## Abstract
 
-YFI represents a claim on Yearn protocol fees. To claim fees, YFI can either be burned or staked in the governance pool.
+YFI represents a claim on Yearn protocol fees. To claim fees, YFI can either be
+burned or staked in the governance pool.
 
 This YIP is to decide whether or not to keep the burning mechanism.
 
 ## Motivation
 
-It makes no sense to burn because the price of YFI will always be higher than the claimable fee value. This is because YFI represents current assets in the fee pool plus future expected cashflows. Staking is just obviously better.
+It makes no sense to burn because the price of YFI will always be higher than
+the claimable fee value. This is because YFI represents current assets in the
+fee pool plus future expected cashflows. Staking is just obviously better.
 
 **FOR**: Remove YFI burning from the protocol.
 
@@ -36,8 +39,10 @@ It makes no sense to burn because the price of YFI will always be higher than th
 | Start block         | 10576777                                   |
 | End block           | 10594057                                   |
 
-Source: [yieldfarming.info YFI Governance Information](https://yieldfarming.info/yearn/vote/)
+Source:
+[yieldfarming.info YFI Governance Information](https://yieldfarming.info/yearn/vote/)
 
 ## Copyright
 
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+Copyright and related rights waived via
+[CC0](https://creativecommons.org/publicdomain/zero/1.0/).

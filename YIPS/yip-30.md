@@ -2,14 +2,17 @@
 yip: 30
 title: YFI Inflation Schedule
 status: Rejected
-author: Substreight (@substreight), DeltaTiger (@deltatigernz), Hannes Graah (@Graadient), Daryl Lau (@Daryllautk), yfi_whale
+author:
+  Substreight (@substreight), DeltaTiger (@deltatigernz), Hannes Graah
+  (@Graadient), Daryl Lau (@Daryllautk), yfi_whale
 discussions-to: https://gov.yearn.finance/t/yip-30-yfi-inflation-schedule/1439
 created: 2020-07-28
 ---
 
 ## Simple Summary
 
-Implement an inflation schedule of 20,000 YFI over the next 8 years, with 12,802 distributed in the first 3 years, ending with a trailing tail of 1% inflation.
+Implement an inflation schedule of 20,000 YFI over the next 8 years, with 12,802
+distributed in the first 3 years, ending with a trailing tail of 1% inflation.
 
 ## Abstract
 
@@ -19,7 +22,9 @@ Implement an inflation schedule of 20,000 YFI over the next 8 years, with 12,802
 
 To create an inflation schedule after the passing of YIP-0.
 
-**FOR**: Implement an inflation schedule of 20,000 YFI over the next 8 years, with 12,802 distributed in the first 3 years, ending with a trailing tail of 1% inflation.
+**FOR**: Implement an inflation schedule of 20,000 YFI over the next 8 years,
+with 12,802 distributed in the first 3 years, ending with a trailing tail of 1%
+inflation.
 
 **AGAINST**: No changes.
 
@@ -27,7 +32,8 @@ To create an inflation schedule after the passing of YIP-0.
 
 ### Overview
 
-1. Adjust supply schedule to follow [[YFI Inflation Schedule](https://docs.google.com/spreadsheets/d/1yomUGpAWR8svL9RXD-_vL2ArgQPGj1x2XPNKDEuZR9Q/edit?usp=sharing)].
+1. Adjust supply schedule to follow
+   [[YFI Inflation Schedule](https://docs.google.com/spreadsheets/d/1yomUGpAWR8svL9RXD-_vL2ArgQPGj1x2XPNKDEuZR9Q/edit?usp=sharing)].
 
 - Beginning annual inflation: 22.384%
 - Weekly emissions reduction multiplier: 0.9937
@@ -38,11 +44,13 @@ To create an inflation schedule after the passing of YIP-0.
 
 ### Rationale
 
-- Liquidity provider yields are maintained at reasonably competitive levels in various YFI price and TVL scenarios (see modeling sheet).
+- Liquidity provider yields are maintained at reasonably competitive levels in
+  various YFI price and TVL scenarios (see modeling sheet).
 - Lower initial inflation (22%) to keep long-term rewards reasonable.
 - 8 year emission schedule to support long-term development.
 
-Reference: [synthetix/contracts/SupplySchedule.sol](https://github.com/Synthetixio/synthetix/blob/master/contracts/SupplySchedule.sol)
+Reference:
+[synthetix/contracts/SupplySchedule.sol](https://github.com/Synthetixio/synthetix/blob/master/contracts/SupplySchedule.sol)
 
 ## Metadata
 
@@ -55,8 +63,10 @@ Reference: [synthetix/contracts/SupplySchedule.sol](https://github.com/Synthetix
 | Start block         | 10560113                                   |
 | End block           | 10577393                                   |
 
-Source: [yieldfarming.info YFI Governance Information](https://yieldfarming.info/yearn/vote/)
+Source:
+[yieldfarming.info YFI Governance Information](https://yieldfarming.info/yearn/vote/)
 
 ## Copyright
 
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+Copyright and related rights waived via
+[CC0](https://creativecommons.org/publicdomain/zero/1.0/).

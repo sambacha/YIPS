@@ -1,9 +1,9 @@
 MathJax = {
   tex: {
-    inlineMath: [["\\(", "\\)"]],
-    displayMath: [["\\[", "\\]"]],
+    inlineMath: [['\\(', '\\)']],
+    displayMath: [['\\[', '\\]']],
   },
   svg: {
-    fontCache: "global",
+    fontCache: 'global',
   },
 };

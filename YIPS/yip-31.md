@@ -2,25 +2,31 @@
 yip: 31
 title: YFI Inflation Distribution
 status: Rejected
-author: Substreight (@substreight), DeltaTiger (@deltatigernz), Hannes Graah (@Graadient), Daryl Lau (@Daryllautk)
+author:
+  Substreight (@substreight), DeltaTiger (@deltatigernz), Hannes Graah
+  (@Graadient), Daryl Lau (@Daryllautk)
 discussions-to: https://gov.yearn.finance/t/yip-31-yfi-inflation-distribution/1445
 created: 2020-07-30
 ---
 
 ## Simple Summary
 
-Divide any further YFI inflation, allocating 50% to Liquidity Pools and 50% to the Multisig.
+Divide any further YFI inflation, allocating 50% to Liquidity Pools and 50% to
+the Multisig.
 
 ## Abstract
 
-- There are currently no funds being allocated to developing and improving the yearn ecosystem.
+- There are currently no funds being allocated to developing and improving the
+  yearn ecosystem.
 - Further inflation of YFI provides an opportunity to fulfill funding needs.
 
 ## Motivation
 
-Using YFI from inflation to fund development is a sustainable mechanism to strengthen the yearn ecosystem and align contributors.
+Using YFI from inflation to fund development is a sustainable mechanism to
+strengthen the yearn ecosystem and align contributors.
 
-**FOR**: Allocate 50% of YFI inflation to Liquidity Pool incentives and 50% to the Multisig.
+**FOR**: Allocate 50% of YFI inflation to Liquidity Pool incentives and 50% to
+the Multisig.
 
 **AGAINST**: No changes to YFI inflation distribution.
 
@@ -34,11 +40,15 @@ Using YFI from inflation to fund development is a sustainable mechanism to stren
 
 ### Rationale
 
-Some YFI should be reserved to secure and improve the yearn ecosystem while properly incentivizing liquidity pools. Starting with a 50% // 50% split to LPs and Multisig, respectively, allows proper funding for both stakeholders, while retaining flexibility to adjust the distribution if necessary.
+Some YFI should be reserved to secure and improve the yearn ecosystem while
+properly incentivizing liquidity pools. Starting with a 50% // 50% split to LPs
+and Multisig, respectively, allows proper funding for both stakeholders, while
+retaining flexibility to adjust the distribution if necessary.
 
 Reference
 
-- Inflation schedule proposal [YIP-30](https://github.com/iearn-finance/YIPS/blob/master/YIPS/yip-30.md)
+- Inflation schedule proposal
+  [YIP-30](https://github.com/iearn-finance/YIPS/blob/master/YIPS/yip-30.md)
 
 ## Metadata
 
@@ -51,8 +61,10 @@ Reference
 | Start block         | 10560736                                   |
 | End block           | 10578016                                   |
 
-Source: [yieldfarming.info YFI Governance Information](https://yieldfarming.info/yearn/vote/)
+Source:
+[yieldfarming.info YFI Governance Information](https://yieldfarming.info/yearn/vote/)
 
 ## Copyright
 
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+Copyright and related rights waived via
+[CC0](https://creativecommons.org/publicdomain/zero/1.0/).

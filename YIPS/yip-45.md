@@ -13,11 +13,15 @@ Add a bounty for proposing YIPs that are implemented.
 
 ## Abstract
 
-Implement a \$500 yCRV bounty for proposing a YIP that reaches the ‘Implemented’ phase, payable from the treasury.
+Implement a \$500 yCRV bounty for proposing a YIP that reaches the ‘Implemented’
+phase, payable from the treasury.
 
 ## Motivation
 
-This should incentivize community members to propose useful YIPs which should be beneficial for the protocol. This is inspired by the 500 sUSD bounty that Synthetix pays out for [implemented SIPs](https://github.com/Synthetixio/SIPs#contributing).
+This should incentivize community members to propose useful YIPs which should be
+beneficial for the protocol. This is inspired by the 500 sUSD bounty that
+Synthetix pays out for
+[implemented SIPs](https://github.com/Synthetixio/SIPs#contributing).
 
 **FOR**: Start offering a bounty for proposing YIPs that are implemented.
 
@@ -25,4 +29,5 @@ This should incentivize community members to propose useful YIPs which should be
 
 ## Copyright
 
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+Copyright and related rights waived via
+[CC0](https://creativecommons.org/publicdomain/zero/1.0/).

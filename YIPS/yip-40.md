@@ -10,15 +10,23 @@ created: 2020-08-24
 
 ## Summary
 
-With more responsibilty for the multisig signers, four of the least active signers have decided to give up their slots for more engaged participants. This proposal replaces the four signers with new ones chosen based on activity and merit.
+With more responsibilty for the multisig signers, four of the least active
+signers have decided to give up their slots for more engaged participants. This
+proposal replaces the four signers with new ones chosen based on activity and
+merit.
 
 ## Abstract
 
-Currently executing a multisig transaction can often take up to 24 hours. With Andre’s pace of work and a rapidly changing environment, this creates problems and an unnecessary time gap. Multisig participants must be responsible, but they must also be constantly inside the project and take the necessary actions for its rapid development.
+Currently executing a multisig transaction can often take up to 24 hours. With
+Andre’s pace of work and a rapidly changing environment, this creates problems
+and an unnecessary time gap. Multisig participants must be responsible, but they
+must also be constantly inside the project and take the necessary actions for
+its rapid development.
 
 ## Motivation
 
-Yearn needs a multisig which will quickly implement the decisions made, while not violating the security of the funds under the wallet's control.
+Yearn needs a multisig which will quickly implement the decisions made, while
+not violating the security of the funds under the wallet's control.
 
 ## Specification
 
@@ -40,11 +48,14 @@ After careful consideration and voting, we suggest these four nominees:
 
 ### Rationale
 
-We need a strong and responsive protocol multisig which can figure stuff out when some of the members are not immediately available. See also the dicussion links for activity stats and further rationale.
+We need a strong and responsive protocol multisig which can figure stuff out
+when some of the members are not immediately available. See also the dicussion
+links for activity stats and further rationale.
 
 ### Technical Specification
 
-To execute the transition we don't need to change the threshold, just execute 8 sequential multisig transactions:
+To execute the transition we don't need to change the threshold, just execute 8
+sequential multisig transactions:
 
 1. Add 0x6E83d6f57012D74e0F131753f8B5Ab557824507D (Vasily)
 2. Remove 0xFe45baf0F18c207152A807c1b05926583CFE2e4b (Michael)
